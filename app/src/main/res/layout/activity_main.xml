@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/bonB"
+        android:fontFamily="@font/bonb"
         android:text="배송조회"
         android:textColor="#000000"
         android:textSize="25dp" />
@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/bonB"
+        android:fontFamily="@font/bonb"
         android:text="오고있는\n000 님의 택배"
         android:textColor="#000000"
         android:textSize="25dp" />
