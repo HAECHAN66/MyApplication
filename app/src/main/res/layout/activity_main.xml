@@ -16,7 +16,55 @@
         android:textColor="#000000"
         android:textSize="25dp" />
 
+
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TableRow>
+            <Spinner
+                android:layout_margin="5dp"
+                android:id="@+id/dropdown_menu"
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:fontFamily="@font/bonm"
+                android:textSize="40dp"
+                android:entries="@array/drop" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TableRow>
+
+            <EditText
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:fontFamily="@font/bonl"
+                android:textSize="20dp"
+                android:text="  운송번호"/>
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/bonb"
+                android:text="조회"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#1039A0"/>
+
+        </TableRow>
+
+    </TableLayout>
+
     <TextView
+        android:layout_marginTop="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/bonb"
@@ -25,10 +73,28 @@
         android:textSize="25dp" />
 
     <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <TableRow>
+            <ImageButton
+                android:id="@+id/upload"
+                android:layout_width="135dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"/>
 
-        />
+            <ImageButton
+                android:id="@+id/location"
+                android:layout_width="135dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+
+
 
 </LinearLayout>
